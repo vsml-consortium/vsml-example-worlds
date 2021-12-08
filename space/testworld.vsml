@@ -1,12 +1,13 @@
 <universe
-    x:xmlns="https://frodo821.me/TR/metabrowse-xtension"
-    p:xmlns="https://frodo821.me/TR/metabrowse-physics">
+    x:xmlns="https://frodo821.me/TR/metabrowse/xtension"
+    p:xmlns="https://frodo821.me/TR/metabrowse/physics"
+    t:xmlns="https://frodo821.me/TR/metabrowse/coords/descartes">
   <head>
     <name value="Test World version 1.0" />
     <meta name="spawn" value="0,0,0"/>
     <physics>
       <!--重力は上向きに10m/s･s(デフォルトは下向きに9.81m/s·s)-->
-      <gravity direction="0,10,0" />
+      <gravity direction="0,-10,0" />
       <!--長さと重さはmks単位系で等倍(デフォルト)-->
       <units>
         <length mult="1" unit="m" />
@@ -19,7 +20,7 @@
       id="shader-chair" />
   </head>
   <world>
-    <plane normal="0,1,0" position="0,0,0" scale="100000,1,100000" />
+    <plane normal="0,1,0" t:position="0,0,0" t:scale="100000,1,100000" />
     <!--
       半径10m、重さ1kgの球体を出現させる
       触れるとhttps://frodo821.me/spaces/other-world.vsmlで記述された空間に転移
@@ -27,7 +28,7 @@
     <portal href="https://frodo821.me/space/other-world.vsml">
     	<sphere
           radius="10"
-          position="0,0,0"
+          t:position="0,0,0"
           p:gravityaffected
           p:weight="1" />
     </portal>
