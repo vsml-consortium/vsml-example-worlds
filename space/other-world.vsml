@@ -23,9 +23,9 @@
     <plane normal="0,1,0" t:position="0,0,0" t:scale="100000,1,100000" />
     <!--
       半径10m、重さ1kgの球体を出現させる
-      触れるとhttps://vsml.frodo821.me/spaces/other-world.vsmlで記述された空間に転移
+      触れるとhttps://vsml.frodo821.me/spaces/testworld.vsmlで記述された空間に転移
     -->
-    <portal href="https://vsml.frodo821.me/space/world.vsml">
+    <portal href="https://vsml.frodo821.me/space/testworld.vsml">
     	<Cube
           t:scale="1,4.8,2.7"
           t:position="10,2.4,0"
