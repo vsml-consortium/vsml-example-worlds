@@ -28,7 +28,7 @@
     <portal href="https://frodo821.me/space/other-world.vsml">
     	<sphere
           radius="10"
-          t:position="0,0,0"
+          t:position="20,5,0"
           p:gravityaffected
           p:weight="1" />
     </portal>
