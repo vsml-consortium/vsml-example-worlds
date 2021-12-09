@@ -26,7 +26,7 @@
       触れるとhttps://vsml.frodo821.me/spaces/testworld.vsmlで記述された空間に転移
     -->
     <portal href="https://vsml.frodo821.me/space/testworld.vsml">
-    	<Cube
+    	<cube
           t:scale="1,4.8,2.7"
           t:position="10,2.4,0"
           p:gravityaffected
@@ -36,6 +36,8 @@
       mesh="https://vsml.frodo821.me/asset/mesh/chair.stl"
       shader="#shader-chair"
       p:gravityaffected
-      p:weight="0.5" />
+      p:weight="0.5"
+      t:position="-5,10,0"
+      t:scale="0.5,0.5,0.5" />
   </world>
 </universe>
