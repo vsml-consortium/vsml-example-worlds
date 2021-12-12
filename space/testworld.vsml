@@ -39,6 +39,10 @@
       p:weight="0.5"
       t:position="-5,0,10"
       t:scale="0.5,0.5,0.5" />
+    <!--
+      This object was created by zzubnik (Nik Clark, Norwich, UK)
+      https://www.thingiverse.com/thing:852078, CC0, https://commons.wikimedia.org/w/index.php?curid=67029126
+    -->
     <object
       mesh="https://upload.wikimedia.org/wikipedia/commons/9/93/Utah_teapot_%28solid%29.stl"
       p:gravityaffected
