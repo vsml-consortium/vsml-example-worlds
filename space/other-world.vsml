@@ -15,17 +15,17 @@
       </units>
     </physics>
     <shader
-      src="https://vsml.frodo821.me/asset/shader/toon.shader"
-      data-texture="https://vsml.frodo821.me/asset/img/chair.png"
+      src="https://worlds.vsml.org/asset/shader/toon.shader"
+      data-texture="https://worlds.vsml.org/asset/img/chair.png"
       id="shader-chair" />
   </head>
   <world>
     <plane normal="0,1,0" t:position="0,0,0" t:scale="100000,1,100000" />
     <!--
       半径10m、重さ1kgの球体を出現させる
-      触れるとhttps://vsml.frodo821.me/spaces/testworld.vsmlで記述された空間に転移
+      触れるとhttps://worlds.vsml.org/spaces/testworld.vsmlで記述された空間に転移
     -->
-    <portal href="https://vsml.frodo821.me/space/testworld.vsml">
+    <portal href="https://worlds.vsml.org/space/testworld.vsml">
     	<cube
           t:scale="1,4.8,2.7"
           t:position="10,2.4,0"
@@ -33,7 +33,7 @@
           p:weight="1" />
     </portal>
     <object
-      mesh="https://vsml.frodo821.me/asset/mesh/chair.stl"
+      mesh="https://worlds.vsml.org/asset/mesh/chair.stl"
       shader="#shader-chair"
       p:gravityaffected
       p:weight="0.5"
